@@ -1,0 +1,82 @@
+body {
+  background-image: url(../pictures/home-background.png);
+  background-size: cover;
+}
+
+.main-ui {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  background-color: black;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  padding: 0 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.sub-greeting {
+  margin-bottom: 5vh;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.sub-sub-greeting {
+  margin-bottom: 5vh;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.reminder {
+  margin-bottom: 5vh;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  animation: reminder 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes reminder {
+  from {
+    text-shadow: 0 0 5px #d10a0a, 0 0 5px #050404, 0 0 5px #000000, 0 0 5px #0f0c0e, 0 0 5px #030303, 0 0 5px #0a0306, 0 0 5px #0e070b;
+  }
+  to {
+    text-shadow: 0 0 10px #0b0909, 0 0 5px black, 0 0 5px #100b0e, 0 0 5px #070707, 0 0 5px #0a0407, 0 0 5px #030001, 0 0 5px #030002;
+  }
+}
+
+button {
+  border-radius: 20px;
+}
+
+.button-img {
+  width: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+
+.button-img:hover {
+  background-color: rgb(32, 141, 141);
+  opacity: 1;
+}
+
+.button-img:active {
+  background-color: rgb(49, 166, 166);
+}
