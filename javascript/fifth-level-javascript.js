@@ -140,11 +140,9 @@ function checkLogic() {
   }
 }
 
-
 function congratulation() {
   location.href = "../champion.html"
 }
-
 
 resetButton.addEventListener("click", resetGame);
 
