@@ -174,13 +174,13 @@ p {
   justify-content: center;
   align-items: center;
   font-size: 15px;
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 40px;
   background-color: red ;
   font-weight: bold;
   border-radius: 20px;
   color: white;
-  border-color: white;
+  text-transform: uppercase;
 }
 
 .reset-button:hover {
@@ -244,14 +244,14 @@ body.overlay-is-open .main-ui {
 
 .next-challange {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  height: 30px;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+  top: 25vh;
+  margin-left: 562px;
+  border-radius: 30%;
+  height: 50px;
   background-color: green;
   border: 2px solid greenyellow;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .next-challange:hover {

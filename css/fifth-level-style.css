@@ -1,0 +1,269 @@
+body {
+  background-image: url(../pictures/blue-math-background.png);
+
+}
+
+.problem {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
+  margin-top: 20vh;
+  margin-bottom: 30px;
+  width: 500px;
+  border-radius: 30%;
+  background-color: #315d87;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.vitality {
+  font-size: 20px;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 10px;
+  background-color:rgb(121, 160, 220);
+  color: white;
+  padding: 5px 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.point-paragraph {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  background-color:rgb(121, 160, 220);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.attempts {
+  font-size: 20px;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 130px;
+  background-color:rgb(121, 160, 220);
+  color: white;
+  padding: 5px 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.mistakes-paragraph {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 155px;
+  background-color:rgb(121, 160, 220);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.our-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid darkolivegreen;
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  background-color: rgb(133, 199, 19);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.our-field {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 30px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+.our-field:hover {
+  border: 2px solid rgba(208, 5, 171, 0.623);
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.box {
+  height: 10px;
+  border: none; 
+  flex: 1;
+}
+
+.progress {
+  position: relative;
+}
+
+.progress-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: green;
+  width: 100%;
+  opacity: 0.57;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform .4s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, .82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .33s ease-out;
+  transform: scale(1.5);
+}
+
+.overlay-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-message {
+  font-size: 50px;
+  color:cornflowerblue;
+}
+
+.reset-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  background-color: red ;
+  font-weight: bold;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.reset-button:hover {
+  color: white;
+  opacity: 7s;
+  background-color: blueviolet;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+body.overlay-is-open .overlay {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+body.overlay-is-open .main-ui { 
+  filter: blur(4px);
+}
+
+@keyframes showError {
+  40% {
+    color: red;
+    transform: scale(1.5);
+  }
+
+  75% {
+    color: green;
+    transform: scale(1);
+  }
+
+  100% {
+    color: yellow;
+    transform: scale(1.2);
+  }
+}
+
+.animate-wrong {
+  animation: .50s showError;
+}
+
+.time-out {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 48vw;
+  margin-bottom: 20vh; /* modify */
+  background-color: rgb(92, 45, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  font-size: 25px;
+  color: white;
+}
+
+.time-out:hover {
+  background-color: rgb(126, 7, 236);
+}
+
+/* .next-challange {
+  position: absolute;
+  top: 25vh;
+  margin-left: 562px;
+  border-radius: 30%;
+  height: 50px;
+  background-color: green;
+  border: 2px solid greenyellow;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.next-challange:hover {
+  background-color: rgb(43, 43, 105);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.next-challange a {
+  text-decoration: none;
+  color: white;
+}
+
+.next-challange a:hover {
+  color: white;
+} */

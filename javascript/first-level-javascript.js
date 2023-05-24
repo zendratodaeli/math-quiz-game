@@ -65,12 +65,33 @@ function handleSubmit(e) {
   checkLogic();
 }
 
-backgroundSound.volume = 0.03;
+backgroundSound.volume = 0.02;
 backgroundSound.addEventListener("volumechange", () => {
-  if (backgroundSound.value !== 0.03) {
-    backgroundSound.volume = 0.03;
+  if (backgroundSound.value !== 0.02) {
+    backgroundSound.volume = 0.02;
   }
 });
+
+winSound.volume = 0.03;
+winSound.addEventListener("volumechange", () => {
+  if(winSound.volume !== 0.03) {
+    winSound.volume = 0.03;
+  }
+})
+
+lostGameMistakeElement.volume = 0.03;
+lostGameMistakeElement.addEventListener("volumechange", () => {
+  if(lostGameMistakeElement.volume !== 0.03) {
+    lostGameMistakeElement.volume = 0.03;
+  }
+})
+
+lostGameTimesUpElement.volume = 0.03;
+lostGameTimesUpElement.addEventListener("volumechange", () => {
+  if(lostGameTimesUpElement.volume !== 0.03) {
+    lostGameTimesUpElement.volume = 0.03;
+  }
+})
 
 function playWinSound() {
   backgroundSound.pause();
