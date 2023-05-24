@@ -129,7 +129,7 @@ function resetGame() {
   pointsNeeded.textContent = 5;
   mistakesAllowed.textContent = 2;
   renderProgressBar();
-  time = 60;
+  time = 50;
   timerElement.innerHTML = time;
   startTimer();
   nextChallangeElement.style.display = "none";
@@ -139,7 +139,7 @@ function renderProgressBar() {
   progressBar.style.transform = `scaleX(${state.score / 5})`;
 }
 
-let time = 60;
+let time = 50;
 let countdownInterval;
 
 function startTimer() {
