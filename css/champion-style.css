@@ -55,11 +55,6 @@ body, html {
   display: none;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 #home-page {
   position: absolute;
   top: 10vh;
@@ -69,14 +64,13 @@ a {
   border-radius: 30%;
   font-weight: bold;
   background-color: rgb(48, 3, 48);
+  color: white;
+  cursor: pointer;
 }
 
 
 #home-page:hover {
   background-color: gold;
-}
-
-#home-page a:hover {
   color: black;
   font-weight: bold;
 }
