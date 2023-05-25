@@ -181,6 +181,7 @@ p {
   border-radius: 20px;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .reset-button:hover {
