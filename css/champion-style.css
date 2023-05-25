@@ -19,6 +19,7 @@ body, html {
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
+  font-family: Arial, sans-serif;
 }
 
 @-webkit-keyframes glow {
