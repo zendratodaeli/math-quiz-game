@@ -1,9 +1,7 @@
 
 # Math Quiz Game
 
-A simple math quiz game designed to test your arithmetic skills across multiple levels.
-
-link : 
+A simple math quiz game designed to test your arithmetic skills across multiple levels. 
 
 ## Introduction
 
@@ -81,3 +79,6 @@ Instructions:
 - You have a maximum of 3 mistakes allowed.
 
 ![Level Five](./pictures/fifth-level-screenshoot.png)
+
+# DEMO
+https://zendratodaeli.github.io/math-quiz-game/
