@@ -1,5 +1,8 @@
 const celebrationAudioElement = document.getElementById("celebration-sound");
 const championElement = document.querySelector(".champion");
+championElement.style.display = "none";
+const buttonElement = document.getElementById("home-page");
+buttonElement.style.display = "none";
 
 
 const trophyElement = document.createElement("img");
@@ -19,4 +22,14 @@ setTimeout(() => {
 setTimeout(() => {
   trophyElement.style.display = "block";
 }, 16 * 1000);
+
+setTimeout(() => {
+  buttonElement.style.display = "block";
+}, 8000)
+
+setTimeout(() => {
+  championElement.style.display = "block";
+}, 2000)
+
+
 
