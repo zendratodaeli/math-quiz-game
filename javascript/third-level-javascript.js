@@ -12,6 +12,7 @@ const timerElement = document.querySelector(".time-out");
 const nextChallangeElement = document.querySelector(".next-challange")
 const lostGameMistakeElement = document.getElementById("lost-game-mistake");
 const lostGameTimesUpElement = document.getElementById("lost-game-times-up");
+const getPointSoundElement = document.getElementById("get-point-sound")
 
 let state = {
   score: 0,
@@ -54,6 +55,7 @@ function handleSubmit(e) {
     pointsNeeded.textContent = 5 - state.score;
     updateProblem();
     renderProgressBar();
+    playGetPointSound();
   } else {
     state.wrongAnswers++;
     mistakesAllowed.textContent = 2 - state.wrongAnswers;
@@ -62,6 +64,17 @@ function handleSubmit(e) {
   }
 
   checkLogic();
+}
+
+getPointSoundElement.volume = 0.010;
+
+function playGetPointSound() {
+  if (!getPointSoundElement.paused) {
+    getPointSoundElement.pause();
+    getPointSoundElement.currentTime = 0;
+  }
+
+  getPointSoundElement.play();
 }
 
 backgroundSound.volume = 0.02;
